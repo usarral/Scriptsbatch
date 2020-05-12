@@ -1,0 +1,140 @@
+1.
+
+md examen_Carlos
+
+2.
+
+3.
+
+color 0F
+
+4.
+
+mkdir C:/examen_Carlos/carpeta1 C:/examen_Carlos/carpeta2
+
+5.
+
+ren "C:\examen_Carlos\carpeta1" empresa1 & ren "C:\examen_Carlos\carpeta2" C:\examen_Carlos\empresa2
+
+6.
+
+md rrhh
+
+md .\informatica\mantenimiento
+
+md .\informatica\produccion
+
+md .\ventas\producto1
+
+md .\ventas\producto2
+
+7.
+
+tree
+
+8.
+
+xcopy /E ..\empresa1 ..\empresa2
+
+9.
+
+a > .\ventas\producto1\prod11.jpg & a > .\ventas\producto1\prod12.jpg & a > .\ventas\producto1\prod131.jpg
+
+10.
+
+sort /? > .\informatica\mantenimiento\sort_ayuda1.txt &  dir /? > .\informatica\mantenimiento\dir_ayuda1.txt & sort /? > .\informatica\mantenimiento\sort_ayuda2.txt & more /? > .\informatica\mantenimiento\more_ayuda1.txt & more /? > .\informatica\mantenimiento\more_ayuda111.txt
+
+11.
+
+echo Este fichero contiene la documetacion del comando sort > .\informatica\mantenimiento\sort_ayuda1.txt & sort /? >> .\informatica\mantenimiento\sort_ayuda1.txt
+
+echo Este fichero contiene la documetacion del comando sort > .\informatica\mantenimiento\sort_ayuda2.txt & sort /? >> .\informatica\mantenimiento\sort_ayuda2.txt
+
+echo Este fichero contiene la documetacion del comando more > .\informatica\mantenimiento\more_ayuda1.txt & more /? >> .\informatica\mantenimiento\more_ayuda1.txt
+
+echo Este fichero contiene la documetacion del comando more > .\informatica\mantenimiento\more_ayuda111.txt & more /? >> .\informatica\mantenimiento\more_ayuda111.txt
+
+echo Este fichero contiene la documetacion del comando dir > .\informatica\mantenimiento\dir_ayuda1.txt & dir /? >> .\informatica\mantenimiento\dir_ayuda1.txt 
+
+12.
+
+ren s* S*
+
+13.
+
+dir /S
+
+14.
+
+move /Y C:\examen_Carlos\empresa1\ventas\producto1\prod11.jpg C:\examen_Carlos\empresa1\ventas\producto2
+
+move /Y C:\examen_Carlos\empresa1\ventas\producto1\prod12.jpg C:\examen_Carlos\empresa1\ventas\producto2
+
+15.
+
+copy /Y C:\examen_Carlos\empresa1\ventas\producto2\prod11.jpg C:\examen_Carlos\empresa1\ventas\producto2\prod21.jpg & copy /Y C:\examen_Carlos\empresa1\ventas\producto2\prod12.jpg C:\examen_Carlos\empresa1\ventas\producto2\prod22.jpg
+
+16.
+
+del  C:\examen_Carlos\empresa1\ventas\producto2\prod11.jpg & del C:\examen_Carlos\empresa1\ventas\producto2\prod12.jpg
+
+17.
+
+find /C "principal" sort_ayuda1.txt
+
+find /C "Principal" sort_ayuda1.txt
+
+18.
+
+find /C "especifica" sort_ayuda1.txt
+
+19.
+
+find /C "Habilitado" more_ayuda1.txt
+
+20.
+
+find /V /C "/" dir_ayuda1.txt
+______________________
+2.
+time > resultados.txt
+date >> resultados.txt
+3.
+
+color F0
+
+6.
+mkdir .\rrhh .\informatica\mantenimiento .\informatica\produccion .\ventas\producto1 .\ventas\producto2
+12.
+
+ren "s*" "S*"
+
+14.
+
+move /Y C:\examen_Carlos\empresa1\ventas\producto1\prod1*.jpg C:\examen_Carlos\empresa1\ventas\producto2
+
+move /Y C:\examen_Carlos\empresa1\ventas\producto1\prod12.jpg C:\examen_Carlos\empresa1\ventas\producto2
+
+15.
+
+copy /Y C:\examen_Carlos\empresa1\ventas\producto2\prod11.jpg C:\examen_Carlos\empresa1\ventas\producto2\prod21.jpg & copy /Y C:\examen_Carlos\empresa1\ventas\producto2\prod12.jpg C:\examen_Carlos\empresa1\ventas\producto2\prod22.jpg
+
+16.
+
+del  C:\examen_Carlos\empresa1\ventas\producto2\prod11.jpg & del C:\examen_Carlos\empresa1\ventas\producto2\prod12.jpg
+
+17.
+
+find /C "principal" sort_ayuda1.txt & find /C "Principal" sort_ayuda1.txt
+
+18.
+
+find /C "especifica" sort_ayuda1.txt
+
+19.
+
+find /C "Habilitado" more_ayuda1.txt
+
+20.
+
+find /V "/" dir_ayuda1.txt
